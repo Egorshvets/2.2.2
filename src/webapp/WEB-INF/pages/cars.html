@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cars</title>
+</head>
+<body bgcolor="black" >
+<font color="white">
+    <table align="center" border="2">
+        <th:block th:each="msg : ${message}">
+            <tr>
+                <td th:text ="${msg}"></td>
+            </tr>
+        </th:block>
+    </table>
+</font>
+</body>
+</html>
