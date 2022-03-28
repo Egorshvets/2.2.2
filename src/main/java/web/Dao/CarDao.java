@@ -10,7 +10,8 @@ public class CarDao {
     private List<Car> cars = Stream.of(new Car("BMW", "e92-coupe", 15000),
             new Car("Mersedes", "W204 C-classe", 15000),
             new Car("Toyota", "Crown", 20000),
-            new Car("Audi", "RSQ8", 150000)).toList();
+            new Car("Audi", "RSQ8", 150000),
+            new Car("Honda", "Civic", 7500)).toList();
 
 
     public List<Car> getLimitedCars(int limit) {
